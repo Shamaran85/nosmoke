@@ -80,14 +80,6 @@ let calcNicotine = () => {
 
 // Run Everything and print to page
 let runEverything = () => {
-    //days_without_smoking.innerHTML = calcDays();
-    //cigarettes_not_smoked.innerHTML = calcCigarettes();
-    // money_saved.innerHTML = calcMoney() + "kr";
-    //time_saved.innerHTML = calcTime() + "hrs";
-    //tar_avoided.innerHTML = calcTar() + "g";
-    //nicotine_avoided.innerHTML = calcNicotine() + "g";
-
-
     days_without_smoking.innerHTML = `${calcDays()}`;
     cigarettes_not_smoked.innerHTML = `${calcCigarettes()}`;
     money_saved.innerHTML = `${calcMoney()}kr`;
