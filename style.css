@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+    background: #e2e2e2;
+    color: #fff;  
+    font-family: 'Roboto', sans-serif;          
+}
+
+.container {
+    overflow: hidden;
+    background-color: #fff;    
+    text-align: center;
+    max-width: 500px;
+    height: 100%;   
+    padding: 25px; 
+    margin: 5vh auto;
+    border-radius: 7px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14);     
+}
+
+.header {
+    width: 100%;
+    color: #555;
+    margin: 0 auto;
+}
+
+.data {
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height:100%;
+}
+
+.data-container {
+    display: inline-block;
+    box-sizing: border-box;
+    flex: 0 1 220px;
+    height: auto;
+    margin: 15px auto;    
+    padding: 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;    
+}
+
+.data-title {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.data-result {
+    font-size: 34px;
+    margin: 20px 0 30px 0;
+    font-weight: 900;
+}
+
+.data-container:first-child {
+    background-color: #a1bff6;
+}
+
+.data-container:nth-child(2) {
+    background-color: #98d798;
+}
+
+.data-container:nth-child(3) {
+    background-color: #7D869C;
+}
+
+.data-container:nth-child(4) {
+    background-color: #ffc276;
+}
+
+.data-container:nth-child(5) {
+    background-color: #fa8b72;
+}
+
+.data-container:last-child {
+    background-color: #9482B0;
+}
