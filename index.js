@@ -27,7 +27,7 @@ let calcDays = () => {
     let minutes = Math.floor(time / (60));
     time = time - (minutes * 60);
 
-    let totalTime = days;
+    let totalTime = days + 1;
 
     return totalTime;
 }
